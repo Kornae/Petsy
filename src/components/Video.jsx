@@ -19,10 +19,9 @@ export default function MediaCover() {
                         autoPlay
                         loop
                         muted
-                        // poster="https://assets.codepen.io/6093409/river.jpg"
                     >
                         <source
-                            src="./dog5.mp4"
+                            src="https://cdn.pixabay.com/vimeo/514139134/cat-65438.mp4?width=1280&hash=b0d1900a29d35666b2f76c71732025a2e94543b1"
                             type="video/mp4"
                         />
                     </video>
@@ -35,7 +34,6 @@ export default function MediaCover() {
                         display="flex"
                         justifyContent="flex-end"
                         padding='5px'
-                        // mt={{ xs: 12, sm: 18 }}
                     >
 
                         <Chip sx={{ padding:'3px 8px'}}><FiberManualRecordIcon fontSize='small' color='error'/> Live 01:34:27</Chip>

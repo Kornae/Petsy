@@ -18,10 +18,9 @@ export default function MediaCover2() {
                         autoPlay
                         loop
                         muted
-                    // poster="https://assets.codepen.io/6093409/river.jpg"
                     >
                         <source
-                            src="./dog6.mp4"
+                            src="https://cdn.pixabay.com/vimeo/691216261/dog-111268.mp4?width=640&hash=296abf8a3bf637c01f1ce18b4652bd15aade2dbd"
                             type="video/mp4"
                         />
                     </video>
@@ -31,7 +30,6 @@ export default function MediaCover2() {
                         level="body-lg"
                         fontWeight="lg"
                         textColor="#fff"
-                        // mt={{ xs: 12, sm: 18 }}
                         display='flex'
                         justifyContent='center'
                         alignItems='center'
