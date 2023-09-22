@@ -11,7 +11,7 @@ export default function Box1() {
 
             <div id="text">
                 <div id="text-content">
-                    <h1 id="title">Find your perfect companion with petsy.</h1>
+                    <h1 id="title">Find your perfect companion with petsi.</h1>
                     <p id="subtitle">Discover Your Ideal Furry Companion, Anytime, Anywhere.</p>
                     <Button variant="soft" className="btn btn-dark">Get Started <PetsIcon fontSize="small" sx={{ marginLeft: '5px' }} /></Button>
                 </div>
