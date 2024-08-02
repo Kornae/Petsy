@@ -129,7 +129,7 @@ body {
 
 #box4 {
   grid-area: b4;
-  background-color: #97d4bb;
+  background-color: #CAE4DB;
   border-radius: 27px;
   display: grid;
   grid-template-areas: 'quote stars';
@@ -201,12 +201,10 @@ body {
     display: grid;
     grid-template-rows: auto;
   }
-
-
-
 }
 
 @media (max-width: 767px) {
+
   #s1-content {
     grid-area: sc;
     display: grid;
@@ -229,4 +227,16 @@ body {
     display: grid;
     grid-template-rows: auto;
   }
+
+    #box4 {
+      grid-area: b4;
+      border-radius: 27px;
+      padding: 10px;
+      display: grid;
+      grid-template-areas: 'quote' 
+      'stars';
+      grid-template-columns: 1fr;
+      display: grid;
+      grid-template-rows: auto;
+    }
 }

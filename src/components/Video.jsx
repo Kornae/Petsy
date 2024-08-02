@@ -15,16 +15,12 @@ export default function MediaCover() {
         >
             <Card component="li" sx={{ minWidth: '100%', height:'100%', flexGrow: 1, borderRadius: '27px' }}>
                 <CardCover>
-                    <video
-                        autoPlay
-                        loop
-                        muted
-                    >
-                        <source
-                            src="https://cdn.pixabay.com/vimeo/514139134/cat-65438.mp4?width=1280&hash=b0d1900a29d35666b2f76c71732025a2e94543b1"
-                            type="video/mp4"
-                        />
-                    </video>
+                    <img
+                        src="https://images.pexels.com/photos/4892116/pexels-photo-4892116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        srcSet="https://images.pexels.com/photos/4892116/pexels-photo-4892116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        loading="lazy"
+                        alt=""
+                    />
                 </CardCover>
                 <CardContent>
                     <Typography

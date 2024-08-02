@@ -10,7 +10,7 @@ import BasicRating from './Rating';
 export default function FolderList() {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flex: '1', padding: '3px', margin: '10px' }}>
-            <List sx={{ width: '100%', bgcolor: '#86bca5;', borderRadius: '18px', color: '#ffffff' }}>
+            <List sx={{ width: '100%', bgcolor: '#7A9D96;', borderRadius: '18px', color: '#ffffff' }}>
                 <ListItem>
                     <ListItemAvatar>
                         <Avatar src='https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80' />

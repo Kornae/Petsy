@@ -14,16 +14,12 @@ export default function MediaCover2() {
         >
             <Card component="li" sx={{ minWidth: '100%', height: '100%', flexGrow: 1, borderRadius: '27px' }}>
                 <CardCover>
-                    <video
-                        autoPlay
-                        loop
-                        muted
-                    >
-                        <source
-                            src="https://cdn.pixabay.com/vimeo/691216261/dog-111268.mp4?width=640&hash=296abf8a3bf637c01f1ce18b4652bd15aade2dbd"
-                            type="video/mp4"
-                        />
-                    </video>
+                    <img
+                        src="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        srcSet="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        loading="lazy"
+                        alt=""
+                    />
                 </CardCover>
                 <CardContent>
                     <Typography

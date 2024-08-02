@@ -8,12 +8,11 @@ export default function Box1() {
     return (
         <div id="box1">
             <div id="nav" className="container"> <Nav /></div>
-
             <div id="text">
                 <div id="text-content">
                     <h1 id="title">Find your perfect companion with petsi.</h1>
                     <p id="subtitle">Discover Your Ideal Furry Companion, Anytime, Anywhere.</p>
-                    <Button variant="soft" className="btn btn-dark">Get Started <PetsIcon fontSize="small" sx={{ marginLeft: '5px' }} /></Button>
+                    <Button variant="soft" className="btn btn-dark">Get Started<PetsIcon fontSize="small" sx={{ marginLeft: '5px' }} /></Button>
                 </div>
             </div>
 
